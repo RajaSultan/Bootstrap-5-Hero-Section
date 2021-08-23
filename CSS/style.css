@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+html {
+  font-size: 62%;
+}
+
+/* navbar started */
+
+.navbar-bg {
+  background-color: #fff;
+  color: black;
+  padding: 1.5rem 0;
+  z-index: 100;
+  box-shadow: 0 0.001rem 0.1rem rgb(83, 83, 83);
+}
+
+.navbar-brand img {
+  width: 70%;
+}
+
+.navbar li {
+  margin-right: 30px;
+}
+
+.navbar li i {
+  margin-right: 5px;
+  color: #166bff;
+}
+
+.navbar li a {
+  font-size: 1.5rem;
+  font-weight: 500;
+  transition: 0.5s;
+  color: #000000;
+}
+
+.navbar li a :hover {
+  color: #ffbe58;
+}
+
+.container {
+  padding: 0 3rem;
+}
+
+/* navbar ended */
+
+/* Header section started */
+
+.Heading {
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+.main-header {
+  height: 80vh;
+  width: 100%;
+  background-image: url("../images/Image.svg");
+}
+
+.sub-Heading {
+  color: #ffbe58;
+  margin-top: 1.5rem;
+}
+
+.main-hero-container {
+  display: flex;
+  height: 80vh;
+  padding: 3% 5%;
+}
+
+.main-hero-container h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  padding-top: 15rem;
+}
+
+.main-hero-container h2 {
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+.main-hero-para {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 3rem 0 3rem 0;
+  font-weight: lighter;
+  width: 75%;
+}
+
+.btn-style {
+  width: 12rem;
+  border: 0.1rem solid #fff;
+  border-radius: 10rem;
+  height: 3.2rem;
+  color: white;
+  transition: 0.5s;
+}
+
+.btn-style:hover {
+  color: #ffbe58;
+  border-color: #ffbe58;
+}
+
+/* Header section ended */
